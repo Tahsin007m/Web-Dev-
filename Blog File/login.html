@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
     <title>Login Form</title>
 </head>
-
-<body class="body"> 
-
-    <form class="Form">
-        <div class="head">
-            <h1>Sign In</h1>
-            <p>Enter your credentials to access your account</p>
+<body> 
+    <form class="main">
+        <div class="heading">
+            <h2>Sign In</h1>
+            <p>Please enter your credentials</p>
         </div>
-
-        <div class="email">
-            <input type="email" placeholder="Email Address">
+        <div class="a">
+            <input class="email" type="email" placeholder="Email Address"> 
+            <input class="pass" type="password" placeholder="Password">  
         </div>
-
-        <div class="password">
-            <input type="password" placeholder="Password">
+        <div class="b">
+            <input type="checkbox">Remember me
+            <a href="">Forget Password?</a>  
         </div>
-
-        <div class="check">
-            <input type="checkbox"> Remember me
-            <a href="">Forgot Password</a>
-        </div>
-
-        <div class="button">
-            <button>Sign In</button>
-        </div>
+         <button>Sign In</button>
     </form>
-
-    <p>New here? <a href="">Create an Account</a></p>
-
 </body>
 </html>
