@@ -1,0 +1,92 @@
+
+.container{
+  
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #080d26;
+   
+   
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+ 
+   
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #ededed;
+   
+
+}
+
+.sign{
+    top:40px;
+    right:80px;
+    position: absolute;
+    color: #080d26;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 0px ;
+    border-color: #080d26;
+    background:#ffe0c9;
+    
+}
+
+.text{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-bottom: 100px; 
+}
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.logo{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 100px;
+  
+}
+
+.middlepart{
+    display: flex;
+
+}
+
+.lower_button{
+     width: 200px;
+     padding:20px;
+     border: 3px solid #080d26;
+     border-radius: 35px;
+     margin-top: 40px;
+     cursor: pointer;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 24px;
+     color: #1c1c1c;
+     background-color:#ffe0c9 ;
+     /*#080d26 blue */
+     /*#ffe0c9 skin*/
+}
+
+.blog_list{
+    color: #ededed;
+    text-decoration: none
+}
+

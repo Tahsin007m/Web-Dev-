@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    
+}
+
+
+
+nav {
+    background-color: #2a2e2b;
+    padding: 10px;
+    text-align: center;
+    width: 99%;
+    padding-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  
+
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav h1{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+.container{
+    margin-top: 10px;
+}
+
+.blog1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(136, 136, 136);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 5px;
+}
+
+.txt1{
+    text-align: justify;
+    padding-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img1{
+    width: 250px;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 24px;
+}
+
+
